@@ -1,0 +1,8 @@
+Soma = 0
+NotaA = int(input("Qual a nota do aluno "))
+Soma = NotaA + Soma 
+NotaA = int(input("Qual a nota do aluno "))
+Soma = NotaA + Soma 
+NotaA = int(input("Qual a nota do aluno "))
+Soma = NotaA + Soma 
+print(Soma /3)
