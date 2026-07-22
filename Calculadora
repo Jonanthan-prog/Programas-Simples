@@ -1,19 +1,19 @@
 print("qual operação você gostaria de fazer")
 n1 = float(input())
-operador = input(f'Qual operação vc gostaria? + - * / //: ')
+operador = input(f'Qual operação vc gostaria? + - * / **: ')
 n2 = float(input())
 
 
 match(operador): 
     case '+':
-        print(f'O resultado é: {n1 - n2:.2f}')
+        print(f'O resultado é: {n1 + n2:.2f}')
     case '-': 
-        print(f"O resultado é: {n1 + n2:.2f}")
+        print(f"O resultado é: {n1 - n2:.2f}")
     case '*':
-        print(f'O resultado é: {n1 / n2:.2f}')
-    case '/': 
         print(f'O resultado é: {n1 * n2:.2f}')
-    case '//':
+    case '/': 
+        print(f'O resultado é: {n1 / n2:.2f}')
+    case '**':
         print(f'O resultado é: {n1 ** n2:.2f}')
     case _: 
         print('Por favor escola uma operação  existente no programa')
