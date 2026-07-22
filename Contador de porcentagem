@@ -1,0 +1,11 @@
+while True:
+    print("quantas paginas o livro possiu?")
+    pt = int(input('insira o nume de paginas '))
+    print("quantas paginas vc ja leu ?")
+    pl = int(input('insira o nume de paginas '))
+    if pl > pt or pl < 0:
+        print("vc nao pode ter lido essa quantidade de pags")
+    else:
+        porc = (pl * 100) / pt
+        print(f'Sucesso! Você já leu {porc:.1f}% do livro.')
+        break
